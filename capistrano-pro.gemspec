@@ -4,8 +4,8 @@ require File.expand_path('../lib/capistrano-pro/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Dmitry Babenko"]
   gem.email         = ["dmitry@babenko.in.ua"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Capistrano recipes pack}
+  gem.summary       = %q{Capistrano recipes pack}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
