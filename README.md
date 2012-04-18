@@ -2,6 +2,12 @@
 
 Capistrano recipes pack
 
+## Features
+
+* unicorn: server start, reload, stop tasks
+* Assets: option to skip assets precompiling
+* Managing `database.yml` Securely accoring to http://www.simonecarletti.com/blog/2009/06/capistrano-and-database-yml/
+
 ## Installation
 
 Add this line to your application's Gemfile:
