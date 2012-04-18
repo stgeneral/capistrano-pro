@@ -1,24 +1,24 @@
 # Capistrano::Pro
 
-TODO: Write a gem description
+Capistrano recipes pack
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'capistrano-pro'
+    gem 'capistrano-pro', :git => 'git://github.com/web4pro/capistrano-pro.git'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install capistrano-pro
-
 ## Usage
 
-TODO: Write usage instructions here
+In order to use capistrano-pro tasks you should use `bundle exec`
+
+## Thanks to
+
+* sosedoff/capistrano-unicorn
 
 ## Contributing
 
