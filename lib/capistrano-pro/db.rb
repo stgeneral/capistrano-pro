@@ -13,5 +13,6 @@ Capistrano::Configuration.instance.load do
     end
   end
 
+  after "deploy:cold", "db:upload_config"
   after "deploy:finalize_update", "db:symlink_config"
 end
